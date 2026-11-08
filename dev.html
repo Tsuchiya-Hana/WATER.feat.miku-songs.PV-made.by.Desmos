@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WATER feat. miku — Desmos MV</title>
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+<div id="stage">
+  <div id="desmos" aria-label="Desmos 动画画布"></div>
+
+  <div class="fx" id="atmosphere"></div>
+  <div class="fx" id="sceneWipe"></div>
+  <div class="fx" id="vignette"></div>
+  <div class="fx" id="scanlines"></div>
+  <div class="fx" id="grain"></div>
+  <div class="fx" id="flash"></div>
+  <div class="fx" id="edgeflash"></div>
+
+  <div id="hud">
+    <div class="hud-block" id="hud-left">
+      <div class="hud-row"><span class="hud-label">DEPTH</span><span class="hud-value" id="hud-depth">0000<em>m</em></span></div>
+      <div class="hud-rule"></div>
+      <div class="hud-row"><span class="hud-label">PRESSURE</span><span class="hud-value" id="hud-pressure">1.00<em>atm</em></span></div>
+      <div class="hud-row"><span class="hud-label">O₂</span><span class="hud-value" id="hud-o2">21.0<em>%</em></span></div>
+      <div class="hud-row"><span class="hud-label">SECTION</span><span class="hud-value" id="hud-section">A / SCENE A</span></div>
+    </div>
+    <div class="hud-block" id="hud-right">
+      <div class="hud-row"><span class="hud-label">TIME</span><span class="hud-value" id="hud-time">00:00.000</span></div>
+      <div class="hud-row"><span class="hud-label">PULSE</span><span class="hud-value" id="hud-pulse">0.00</span></div>
+      <div class="hud-rule"></div>
+      <div class="hud-row"><span class="hud-label" id="hud-shot">SHOT 001 / 104</span></div>
+    </div>
+    <div id="depth-ruler"><div id="depth-marker"></div></div>
+  </div>
+
+  <div id="sectionCard">
+    <div class="num" id="sec-num">A</div>
+    <div class="meta">
+      <div class="jp" id="sec-jp">SCENE A</div>
+      <div class="en" id="sec-en">PART A</div>
+      <div class="rule"></div>
+    </div>
+  </div>
+
+  <div id="titleCard">
+    <div class="over">A DESMOS GRAPHING CALCULATOR FILM · PUBLIC DEMO</div>
+    <div class="main">WATER</div>
+    <div class="sub">feat. miku</div>
+    <div class="rule"></div>
+  </div>
+
+  <div id="lyrics" aria-live="polite"></div>
+
+  <div id="endCard">
+    <div class="main">WATER</div>
+    <div class="sub">feat. miku · END</div>
+    <div class="line">ABCDEFG 1234 TEXT 甲乙丙丁 输入文本</div>
+    <button id="replay" type="button">REPLAY ↺</button>
+  </div>
+
+  <div id="progress"><div class="fill" id="progress-fill"></div></div>
+
+  <div id="controls">
+    <button id="btn-play" type="button" aria-label="播放/暂停">
+      <svg viewBox="0 0 24 24"><path id="play-icon" d="M8 5v14l11-7z"/></svg>
+    </button>
+    <button id="btn-back" type="button" aria-label="后退十秒"><span>−10</span></button>
+    <button id="btn-fwd" type="button" aria-label="前进十秒"><span>+10</span></button>
+    <div class="sep"></div>
+    <input id="seek" type="range" min="0" max="299.294" step="0.01" value="0" aria-label="播放进度">
+    <div id="clock">00:00.000</div>
+    <div class="sep"></div>
+    <button id="btn-sound" type="button" aria-label="静音"><svg viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4zm12.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"/></svg></button>
+    <button id="btn-file" type="button" aria-label="选择本地音频"><span>♪</span></button>
+    <button id="btn-safety" type="button" aria-label="光敏与显示设置"><span>⚙</span></button>
+    <button id="btn-full" type="button" aria-label="全屏"><span>⛶</span></button>
+  </div>
+
+  <div id="safety" role="dialog" aria-label="光敏安全与显示设置">
+    <button class="close" id="safety-close" type="button" aria-label="关闭">×</button>
+    <h3>光敏安全 / DISPLAY</h3>
+    <div class="safe-row"><label for="safe-hz">闪动频率上限 (Hz)</label><input id="safe-hz" type="number" min="0" max="3" step="0.1" value="1.5"></div>
+    <div class="safe-row"><label for="safe-chroma">色差幅度 (0–1)</label><input id="safe-chroma" type="number" min="0" max="1" step="0.05" value="0.18"></div>
+    <div class="safe-row"><label for="safe-bright">亮度幅度 (0–1)</label><input id="safe-bright" type="number" min="0" max="1" step="0.05" value="0.15"></div>
+    <div class="safe-check"><input id="safe-strong" type="checkbox"><label for="safe-strong">启用强闪（默认关闭）</label></div>
+    <div class="hint">整屏亮度变化默认限制在 3 次/秒以内，红色只作细线；强闪开启后仍不超过 3 次/秒。</div>
+  </div>
+
+  <div id="startScreen" role="button" tabindex="0" aria-label="播放 WATER feat. miku">
+    <div class="kicker">A DESMOS GRAPHING CALCULATOR FILM · PUBLIC DEMO</div>
+    <div class="title">WATER</div>
+    <div class="feat">feat. miku</div>
+    <div class="line"></div>
+    <div class="play"><span>▶</span><span>点击进入演示</span></div>
+    <div class="note">PUBLIC DEMO · 不含原曲音源<br><span id="start-note">可点击 ♪ 加载你拥有授权的本地音频；无音频时画面按内部时钟演示</span></div>
+  </div>
+
+  <div id="boot">
+    <div class="word">WATER</div>
+    <div class="bar"><i></i></div>
+    <div class="msg" id="boot-msg">LOADING DESMOS · 构建表达式</div>
+  </div>
+</div>
+
+<audio id="audio" preload="none"></audio>
+<input id="audioFile" type="file" accept="audio/*" hidden>
+
+<script src="src/data.js"></script>
+<script src="src/scenes.js"></script>
+<script src="src/app.js"></script>
+<script src="https://www.desmos.com/api/v1.10/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6&lang=zh-CN" onload="window.__bootMV()" onerror="window.__desmosError()"></script>
+</body>
+</html>

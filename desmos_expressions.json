@@ -1,0 +1,1592 @@
+[
+ {
+  "id": "T",
+  "latex": "T=0",
+  "hidden": true
+ },
+ {
+  "id": "K",
+  "latex": "K=1",
+  "hidden": true
+ },
+ {
+  "id": "ts",
+  "latex": "t_s=0",
+  "hidden": true
+ },
+ {
+  "id": "u",
+  "latex": "u=T-t_s",
+  "hidden": true
+ },
+ {
+  "id": "S",
+  "latex": "S=1",
+  "hidden": true
+ },
+ {
+  "id": "Lx",
+  "latex": "L_{x}=[0.203,-0.216,0.026,0.569,-0.226,0.051,0.172,-0.233,0.076,0.533,-0.238,0.099,0.132,-0.24,0.122,0.11,-0.239,0.143,0.087,-0.236,0.163,0.063,0.57,0.229,-0.253,-0.091,-0.013,0.222,0.041,0.21,-0.394,-0.196,0.221,-0.039,-0.18,0.23,-0.064,-0.162,0.236,-0.088,-0.142,0.239,-0.112,-0.121,0.24,-0.134,-0.098,0.238,-0.154,-0.074,0.233,-0.173,-0.049,0.225,-0.19,0.356,0.215,-0.204,0.002,0.203,-0.217,0.027,0.188,-0.226,0.052,0.529,-0.28,0.01,0.072,-0.33,-0.002,0.017,-0.377,-0.036,-0.071,-0.239,-0.235,0.086,-0.615,0.164,0.061,-0.229,0.213,0.084,-0.157,0.277,0.106,0.283,0.363,0.571,0.063,0.542,0.311,0.196,0.23,0.314,-0.161,0.236,-0.09,-0.141,0.239,-0.113,-0.12,0.24]",
+  "hidden": true
+ },
+ {
+  "id": "Ly",
+  "latex": "L_{y}=[1.364,1.197,1.171,1.203,1.103,0.875,0.786,0.416,0.397,0.584,0.41,0.415,0.033,0.29,-0.32,0.018,0.063,-0.396,-0.095,-0.285,0.079,0.001,0.11,-0.013,0.033,0.144,0.105,-0.04,-0.064,0.047,0.036,-0.148,-0.297,-0.272,-0.241,-0.383,-0.588,-0.608,-0.525,-0.564,-0.741,-1.23,-0.758,-0.729,-0.859,-0.098,-0.033,0.075,0.032,-0.11,-0.127,-0.014,0.01,-0.123,0.078,-0.151,-0.075,0.031,-0.53,-0.138,-0.05,-0.09,-0.661,-0.349,0.327,0.421,0.347,0.269,0.351,0.483,0.457,0.338,0.362,0.514,0.57,0.221,0.12,0.187,0.252,0.146,-0.005,-0.052,0.061,0.05,-0.488,-0.13,-0.016,0.043,-0.079,-0.202,-0.153,-0.067,-0.125,-0.266,-0.072,0.044,0.063,-0.071,-0.147,-0.056,0.025,-0.065,-0.093,-0.048]",
+  "hidden": true
+ },
+ {
+  "id": "Lz",
+  "latex": "L_{z}=[1.022,1.073,0.939,0.981,0.996,1.079,1.032,1.013,0.992,1.052,1.024,0.987,1.032,1.062,1.001,1.022,1.048,1.048,0.994,0.981,0.998,1.048,1.043,1.028,1.006,1.009,1.035,1.057,1.106,0.968,0.954,0.969,0.991,0.935,0.964,0.995,1.04,1.013,1.029,1.07,0.992,0.99,1.015,1.094,0.98,0.99,1.089,1.032,1.059,1.066,0.99,1.025,1.086,1.058,1.076,1.065,0.987,1.032,1.006,1.093,1.043,0.972,1.018,1.095,1.07,1.081,1.011,1.045,0.992,1.019,1.039,1.03,1.007,1,0.967,1.018,0.997,0.97,0.947,1.007,1.031,1.097,1.008,0.984,0.982,1.006,1.083,1.021,0.997,0.986,1.005,1.089,1.039,0.963,1.033,0.98,1.059,1.016,1,0.971,0.963,0.982,1.097,0.983]",
+  "hidden": true
+ },
+ {
+  "id": "Ldx",
+  "latex": "D_{x}=[0.002,0.012,0.005,0.195,-0.003,-0.009,0,0.01,0.012,0.205,-0.001,-0.012,-0.002,0,0.01,0.012,0.001,-0.006,-0.003,-0.009,0,0.002,0.012,0.001,-0.206,-0.003,-0.209,0.001,0.01,0.003,-0.196,-0.002,-0.012,-0.009,0,0.01,0.003,0.001,-0.006,-0.012,-0.002,0.001,0.003,0.011,0.004,-0.002,-0.012,-0.002,0.001,0.003,0.011,0.001,-0.007,-0.003,-0.008,0.202,0.01,0.011,0.004,-0.007,-0.003,-0.008,0.002,0.003,0.003,0.203,-0.007,-0.012,-0.002,0.001,0.003,0.011,0.003,-0.007,-0.003,-0.008,-0.198,0.003,-0.189,0.001,-0.007,-0.012,-0.008,0.002,0.011,0.003,0.003,0.048,-0.012,0.192,0.003,0.011,0.003,0.003,-0.002,0.188,-0.007,0.003,0.011,0.003,0.002,-0.002,-0.012,-0.007]",
+  "hidden": true
+ },
+ {
+  "id": "Ldy",
+  "latex": "D_{y}=[0.002,-0.008,-0.014,-0.004,0.002,0.013,0.001,-0.271,-0.272,0,0.003,0.011,-0.066,-0.013,-0.27,0.004,0.003,-0.252,-0.067,-0.274,-0.002,0.002,0.014,0.001,-0.01,-0.003,-0.002,0.011,0.012,0,-0.013,-0.003,0.002,0.013,0.002,-0.005,-0.003,-0.002,0.007,0.014,0.002,-0.268,-0.003,-0.004,0.01,0.003,0.002,-0.003,-0.012,0,0.013,0.003,-0.003,-0.003,0.19,0.005,0.014,0.008,-0.267,-0.014,-0.002,0.009,-0.246,0.001,-0.003,-0.013,-0.002,0.012,0.003,0,-0.003,-0.011,0.003,0.013,0.002,-0.005,-0.014,-0.002,0.007,0.003,0.006,-0.009,-0.014,-0.004,-0.25,0.003,0.002,-0.003,-0.012,0.001,0.013,0.011,-0.001,-0.013,-0.002,0.005,0.014,0.008,-0.007,-0.003,-0.006,0.002,0.014,0.004]",
+  "hidden": true
+ },
+ {
+  "id": "Ldz",
+  "latex": "D_{z}=[0,0.035,-0.035,0,0,0.035,0,0,0,0.035,0,-0.035,0,0.035,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.035,0,0,0,0,-0.035,0,0.035,0.035,0,0,0.035,0,0,0,0.035,-0.035,0,0.035,0,0,0,-0.035,0,0.035,0,0,0,-0.035,0.035,0,0.035,0,-0.035,0,0.035,0.035,0.035,0,0.035,0,0,0,0,0,0,-0.035,0,0,0,0,0.035,0.035,0.035,0,0,0,0,0.035,0,0,0,0,0.035,0,-0.035,0.035,0,0.035,0,0,0,0,0,0.035,-0.035]",
+  "hidden": true
+ },
+ {
+  "id": "Ld",
+  "latex": "L_{d}=[1.875,2.625,3.083,2.617,3.175,2.325,3.175,2.325,3.3,2.958,2.709,2.958,2.792,2.791,2.792,2.792,2.408,2.342,2.558,2.7,2.9,1.842,1.658,1.425,1.375,1.375,1.375,1.375,1.708,2.667,3.19,3.21,3.1,3.369,3.631,3.792,2.875,2.875,2.875,2.875,2.666,2.667,2.875,2.1,2.15,2.167,1.583,1.375,1.425,1.283,1.917,2,1.792,2.916,2.917,2.975,3.067,2.833,3,2.989,3.011,3,3.5,3,2.667,3.041,2.625,1.467,1.533,1.367,1.342,2.916,2.709,2.533,2.508,3.792,4,4,4,4,4.417,2.75,1.433,1.358,1.442,1.35,1.458,3.462,4.769,4.531,5.42,2.777,2.033,2.217,6.083,5,5.152,4.848,5.5,5.5,5.5,5.458,2.542,3.25]",
+  "hidden": true
+ },
+ {
+  "id": "H",
+  "latex": "H=[20,21.08,22.16,23.24,24.32,25.25,26.33,27.41,28.49,29.57,30.5,31.58,32.66,33.74,34.82,35.75,36.83,37.91,38.99,40.07,41,42.08,43.16,44.24,45.32,46.25,47.33,48.41,49.49,50.57,51.5,52.58,53.66,54.74,55.82,56.75,57.83,58.91,59.99,61.07,62,63.08,64.16,65.24,66.32,67.25,68.33,69.41,70.49,71.57,72.5,73.58,74.66,75.74,76.82,77.75,78.83,79.91,80.99,82.07,83,84.08,85.16,86.24,87.32,88.25,89.33,90.41,91.49,92.57,93.5,94.58,95.66,96.74,97.82,98.75,99.83,100.91,101.99,103.07,104,105.08,106.16,107.24,108.32,109.25,110.33,111.41,112.49,113.57,114.5,115.58,116.66,117.74,118.82,119.75,120.83,121.91,122.99,124.07,125,126.08,127.16,128.24,129.32,130.25,131.33,132.41,133.49,134.57,135.5,136.58,137.66,138.74,139.82,140.75,141.83,142.91,143.99,145.07,146,147.08,148.16,149.24,150.32,151.25,152.33,153.41,154.49,155.57,156.5,157.58,158.66,159.74,160.82,161.75,162.83,163.91,164.99,166.07,167,168.08,169.16,170.24,171.32,172.25,173.33,174.41,175.49,176.57,177.5,178.58,179.66,180.74,181.82,182.75,183.83,184.91,185.99,187.07,188,189.08,190.16,191.24,192.32,193.25,194.33,195.41,196.49,197.57,198.5,199.58,200.66,201.74,202.82,203.75,204.83,205.91,206.99,208.07,209,210.08,211.16,212.24,213.32,214.25,215.33,216.41,217.49,218.57,219.5,220.58,221.66,222.74,223.82,224.75,225.83,226.91,227.99,229.07,230,231.08,232.16,233.24,234.32,235.25,236.33,237.41,238.49,239.57,240.5,241.58,242.66,243.74,244.82,245.75,246.83,247.91,248.99,250.07,251,252.08,253.16,254.24,255.32,256.25,257.33,258.41,259.49,260.57,261.5,262.58,263.66,264.74,265.82,266.75,267.83,268.91,269.99,271.07,272,273.08,274.16,275.24,276.32,277.25,278.33,279.41,280.49,281.57,282.5,283.58,284.66,285.74,286.82,287.75,288.83]",
+  "hidden": true
+ },
+ {
+  "id": "fl1",
+  "latex": "f_{l1}\\left(x\\right)=\\left\\{x<\\frac{1}{2.75}:7.5625x^{2},x<\\frac{2}{2.75}:7.5625\\left(x-\\frac{1.5}{2.75}\\right)^{2}+0.75,x<\\frac{2.5}{2.75}:7.5625\\left(x-\\frac{2.25}{2.75}\\right)^{2}+0.9375,7.5625\\left(x-\\frac{2.625}{2.75}\\right)^{2}+0.984375\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "fl",
+  "latex": "f_{l}\\left(x\\right)=\\left\\{x\\le0:0,x\\ge1:1,\\left[x,\\operatorname{floor}\\left(x\\right),1-\\cos\\left(\\frac{x\\pi}{2}\\right),\\sin\\left(\\frac{x\\pi}{2}\\right),-\\frac{\\cos\\left(\\pi x\\right)-1}{2},x^{2},1-\\left(1-x\\right)^{2},\\left\\{x<0.5:2x^{2},1-\\frac{\\left(-2x+2\\right)^{2}}{2}\\right\\},x^{3},1-\\left(1-x\\right)^{3},\\left\\{x<0.5:4x^{3},1-\\frac{\\left(-2x+2\\right)^{3}}{2}\\right\\},x^{4},1-\\left(1-x\\right)^{4},\\left\\{x<0.5:8x^{4},1-\\frac{\\left(-2x+2\\right)^{4}}{2}\\right\\},x^{5},1-\\left(1-x\\right)^{5},\\left\\{x<0.5:16x^{5},1-\\frac{\\left(-2x+2\\right)^{5}}{2}\\right\\},2^{10x-10},1-2^{-10x},\\left\\{x<0.5:\\frac{2^{20x-10}}{2},\\frac{2-2^{-20x+10}}{2}\\right\\},1-\\sqrt{1-x^{2}},\\sqrt{1-\\left(x-1\\right)^{2}},\\left\\{x<0.5:\\frac{1-\\sqrt{1-4x^{2}}}{2},\\frac{\\sqrt{1-\\left(-2x+2\\right)^{2}}+1}{2}\\right\\},c_{03}x^{3}-c_{01}x^{2},1+c_{03}\\left(x-1\\right)^{3}+c_{01}\\left(x-1\\right)^{2},\\left\\{x<0.5:\\frac{4x^{2}\\left(2\\left(c_{02}+1\\right)x-c_{02}\\right)}{2},\\frac{\\left(2x-2\\right)^{2}\\left(\\left(c_{02}+1\\right)\\left(2x-2\\right)+c_{02}\\right)+2}{2}\\right\\},\\left\\{x\\ge1:1,-2^{10x-10}\\sin\\left(\\left(10x-10.75\\right)c_{04}\\right)\\right\\},\\left\\{x\\ge1:1,2^{-10x}\\sin\\left(\\left(10x-0.75\\right)c_{04}\\right)+1\\right\\},\\left\\{x<0.5:-\\frac{2^{20x-10}\\sin\\left(\\left(20x-11.125\\right)c_{05}\\right)}{2},\\frac{2^{-20x+10}\\sin\\left(\\left(20x-11.125\\right)c_{05}\\right)}{2}+1\\right\\},1-f_{l1}\\left(1-x\\right),f_{l1}\\left(x\\right),\\left\\{x<0.5:\\frac{1-f_{l1}\\left(1-2x\\right)}{2},\\frac{1+f_{l1}\\left(2x-1\\right)}{2}\\right\\}\\right]\\right\\}\\operatorname{with}c_{01}=1.70158,c_{02}=2.5949095,c_{03}=2.70158,c_{04}=\\frac{2\\pi}{3},c_{05}=\\frac{2\\pi}{4.5}",
+  "hidden": true
+ },
+ {
+  "id": "tc",
+  "latex": "t_{c}\\left(a,b,t\\right)=\\max\\left(0,\\min\\left(1,\\frac{t-a}{b-a}\\right)\\right)",
+  "hidden": true
+ },
+ {
+  "id": "m",
+  "latex": "m\\left(t_{0},v_{0},t_{1},v_{1},t,w\\right)=v_{0}+\\left(v_{1}-v_{0}\\right)f_{l}\\left(t_{c}\\left(t_{0},t_{1},t\\right)\\right)\\left[w\\right]",
+  "hidden": true
+ },
+ {
+  "id": "p",
+  "latex": "p=\\min\\left(2.2,\\sum_{i=1}^{257}0.74^{\\left|T-H\\left[i\\right]\\right|/0.075}\\right)",
+  "hidden": true
+ },
+ {
+  "id": "cx",
+  "latex": "c_{x}=L_{x}\\left[K\\right]+D_{x}\\left[K\\right]*f_{l}\\left(t_{c}\\left(0,1,u/L_{d}\\left[K\\right]\\right)\\right)\\left[11\\right]+0.012p\\sin\\left(7T\\right)",
+  "hidden": true
+ },
+ {
+  "id": "cy",
+  "latex": "c_{y}=L_{y}\\left[K\\right]+D_{y}\\left[K\\right]*f_{l}\\left(t_{c}\\left(0,1,u/L_{d}\\left[K\\right]\\right)\\right)\\left[11\\right]+0.008p\\cos\\left(9T\\right)",
+  "hidden": true
+ },
+ {
+  "id": "cz",
+  "latex": "c_{z}=L_{z}\\left[K\\right]+D_{z}\\left[K\\right]*f_{l}\\left(t_{c}\\left(0,1,u/L_{d}\\left[K\\right]\\right)\\right)\\left[11\\right]+0.022p",
+  "hidden": true
+ },
+ {
+  "id": "s1_bg",
+  "latex": "y<100",
+  "color": "#030D16",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": false
+ },
+ {
+  "id": "s2_bg",
+  "latex": "y<100",
+  "color": "#04121C",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s3_bg",
+  "latex": "y<100",
+  "color": "#031018",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s4_bg",
+  "latex": "y<100",
+  "color": "#020A12",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s5_bg",
+  "latex": "y<100",
+  "color": "#01060B",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s6_bg",
+  "latex": "y<100",
+  "color": "#01060B",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s7_bg",
+  "latex": "y<100",
+  "color": "#05070C",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s8_bg",
+  "latex": "y<100",
+  "color": "#020A12",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s9_bg",
+  "latex": "y<100",
+  "color": "#071018",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s10_bg",
+  "latex": "y<100",
+  "color": "#04121C",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s11_bg",
+  "latex": "y<100",
+  "color": "#071018",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s12_bg",
+  "latex": "y<100",
+  "color": "#01060A",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s13_bg",
+  "latex": "y<100",
+  "color": "#01060A",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "g_dust",
+  "latex": "\\left(c_{x}+\\left(\\operatorname{mod}\\left(7.13i,18\\right)-9+0.35\\sin\\left(0.25T+i\\right)\\right)/c_{z},c_{y}+\\left(\\operatorname{mod}\\left(0.31i+0.12T,11\\right)-5.5\\right)/c_{z}\\right)\\operatorname{for}i=\\left[1...90\\right]",
+  "color": "#7FD8E8",
+  "pointSize": "2.4+2.6p",
+  "pointOpacity": 0.5
+ },
+ {
+  "id": "g_dust2",
+  "latex": "\\left(c_{x}+\\left(\\operatorname{mod}\\left(11.7i+3,20\\right)-10+0.45\\sin\\left(0.4T+2i\\right)\\right)/c_{z},c_{y}+\\left(\\operatorname{mod}\\left(0.19i+0.08T,12\\right)-6\\right)/c_{z}\\right)\\operatorname{for}i=\\left[1...36\\right]",
+  "color": "#9EDCE8",
+  "pointSize": "4.0+3.5p",
+  "pointOpacity": 0.34
+ },
+ {
+  "id": "g_scan",
+  "latex": "\\left|\\sin\\left(2.1c_{z}\\left(y-c_{y}\\right)+0.11T\\right)\\right|<0.012",
+  "color": "#2AA7B8",
+  "fillOpacity": 0.09,
+  "lineOpacity": 0
+ },
+ {
+  "id": "g_horizon",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=-4.55+0.12\\sin\\left(0.35c_{z}\\left(x-c_{x}\\right)+0.20T\\right)",
+  "color": "#2AA7B8",
+  "lineWidth": "0.7+0.6p",
+  "lineOpacity": "0.10+0.05p"
+ },
+ {
+  "id": "s1_wash",
+  "latex": "y<100",
+  "color": "#6FE3E1",
+  "fillOpacity": 0.018,
+  "lineOpacity": 0,
+  "hidden": false
+ },
+ {
+  "id": "A_sky",
+  "latex": "c_{z}\\left(y-c_{y}\\right)>2.00",
+  "color": "#08222E",
+  "fillOpacity": 0.55,
+  "lineOpacity": 0,
+  "hidden": false
+ },
+ {
+  "id": "A_sea",
+  "latex": "c_{z}\\left(y-c_{y}\\right)<2.42+0.30\\sin\\left(0.72c_{z}\\left(x-c_{x}\\right)+0.50T\\right)+0.10\\sin\\left(1.9c_{z}\\left(x-c_{x}\\right)-1.10T\\right)+0.06\\sin\\left(0.21T\\right)",
+  "color": "#0B3A4A",
+  "fillOpacity": 0.55,
+  "lineOpacity": 0,
+  "hidden": false
+ },
+ {
+  "id": "A_surf1",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=2.42+0.30\\sin\\left(0.72c_{z}\\left(x-c_{x}\\right)+0.50T\\right)+0.10\\sin\\left(1.9c_{z}\\left(x-c_{x}\\right)-1.10T\\right)+0.06\\sin\\left(0.21T\\right)",
+  "color": "#6FE3E1",
+  "lineWidth": "1.8+1.2p",
+  "lineOpacity": "0.55+0.20p",
+  "hidden": false
+ },
+ {
+  "id": "A_surf2",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=2.31+0.32\\sin\\left(0.66c_{z}\\left(x-c_{x}\\right)+0.63T+1.1\\right)+0.09\\sin\\left(1.7c_{z}\\left(x-c_{x}\\right)-0.9T\\right)",
+  "color": "#2AA7B8",
+  "lineWidth": 1,
+  "lineOpacity": 0.4,
+  "hidden": false
+ },
+ {
+  "id": "A_surf3",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=2.18+0.28\\sin\\left(0.61c_{z}\\left(x-c_{x}\\right)+0.82T+2.2\\right)",
+  "color": "#2AA7B8",
+  "lineWidth": 0.7,
+  "lineOpacity": 0.28,
+  "hidden": false
+ },
+ {
+  "id": "A_ray1",
+  "latex": "c_{z}\\left(x-c_{x}\\right)=-3.10+0.35\\sin\\left(0.42c_{z}\\left(y-c_{y}\\right)+0.18T\\right)\\left\\{c_{z}\\left(y-c_{y}\\right)<2.32\\right\\}",
+  "color": "#A8F0E8",
+  "lineWidth": "0.8+0.8p",
+  "lineOpacity": "0.10+0.06p",
+  "hidden": false
+ },
+ {
+  "id": "A_ray2",
+  "latex": "c_{z}\\left(x-c_{x}\\right)=0.55+0.28\\sin\\left(0.36c_{z}\\left(y-c_{y}\\right)+0.26T+1.7\\right)\\left\\{c_{z}\\left(y-c_{y}\\right)<2.32\\right\\}",
+  "color": "#FFE7BC",
+  "lineWidth": "0.6+0.6p",
+  "lineOpacity": "0.08+0.05p",
+  "hidden": false
+ },
+ {
+  "id": "A_ray3",
+  "latex": "c_{z}\\left(x-c_{x}\\right)=3.85+0.32\\sin\\left(0.40c_{z}\\left(y-c_{y}\\right)-0.14T+3.1\\right)\\left\\{c_{z}\\left(y-c_{y}\\right)<2.32\\right\\}",
+  "color": "#A8F0E8",
+  "lineWidth": "0.7+0.7p",
+  "lineOpacity": "0.09+0.05p",
+  "hidden": false
+ },
+ {
+  "id": "A_sunGlow3",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-0.20\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-3.05\\right)^{2}<7.2",
+  "color": "#F0B36A",
+  "fillOpacity": 0.025,
+  "lineOpacity": 0,
+  "hidden": false
+ },
+ {
+  "id": "A_sunGlow2",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-0.20\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-3.05\\right)^{2}<2.7",
+  "color": "#F0B36A",
+  "fillOpacity": 0.065,
+  "lineOpacity": 0,
+  "hidden": false
+ },
+ {
+  "id": "A_sunGlow1",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-0.20\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-3.05\\right)^{2}<1.0",
+  "color": "#F0B36A",
+  "fillOpacity": 0.11,
+  "lineOpacity": 0,
+  "hidden": false
+ },
+ {
+  "id": "A_sunEdge",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-0.20\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-3.05\\right)^{2}=0.64^{2}",
+  "color": "#FFE7BC",
+  "lineWidth": 1,
+  "lineOpacity": "0.30+0.20p",
+  "hidden": false
+ },
+ {
+  "id": "A_sun",
+  "latex": "\\left(c_{x}+\\left(0.20\\right)/c_{z},c_{y}+\\left(3.05\\right)/c_{z}\\right)",
+  "color": "#F6BE76",
+  "pointSize": "78*m(18.8,1,40,0.16,T,18)+6p",
+  "pointOpacity": "0.95*m(18.8,1,39,0.22,T,19)",
+  "hidden": false
+ },
+ {
+  "id": "A_reflect",
+  "latex": "c_{z}\\left(x-c_{x}\\right)=0.30\\sin\\left(2.2c_{z}\\left(y-c_{y}\\right)+0.6T\\right)\\left\\{-4.2<c_{z}\\left(y-c_{y}\\right)<2.3\\right\\}",
+  "color": "#FFD9A0",
+  "lineWidth": 2,
+  "lineOpacity": "0.16+0.10p",
+  "hidden": false
+ },
+ {
+  "id": "A_glints",
+  "latex": "\\left(c_{x}+\\left(0.20+2.9\\sin\\left(0.9i+0.3T\\right)\\right)/c_{z},c_{y}+\\left(2.44+0.18\\sin\\left(1.2i+0.4T\\right)\\right)/c_{z}\\right)\\operatorname{for}i=\\left[1...28\\right]",
+  "color": "#FFE7BC",
+  "pointSize": "1.6+1.4p",
+  "pointOpacity": 0.55,
+  "hidden": false
+ },
+ {
+  "id": "A_bubbles",
+  "latex": "\\left(c_{x}+\\left(0.20+1.8\\sin\\left(0.4i\\right)+0.12\\sin\\left(0.8T+i\\right)\\right)/c_{z},c_{y}+\\left(\\operatorname{mod}\\left(0.45i+0.25T,6.4\\right)-3.9\\right)/c_{z}\\right)\\operatorname{for}i=\\left[1...24\\right]",
+  "color": "#62D8D2",
+  "pointSize": 3.2,
+  "pointOpacity": "0.55*m(13,0,16,1,T,5)",
+  "hidden": false
+ },
+ {
+  "id": "A_depth",
+  "latex": "\\left|\\sin\\left(0.8c_{z}\\left(y-c_{y}\\right)-0.08T\\right)\\right|<0.018",
+  "color": "#2AA7B8",
+  "fillOpacity": "0.05*m(28,0,34,1,T,11)",
+  "lineOpacity": 0,
+  "hidden": false
+ },
+ {
+  "id": "A_thermo1",
+  "latex": "c_{z}\\left(y-c_{y}\\right)<-1.10+0.22\\sin\\left(0.38c_{z}\\left(x-c_{x}\\right)+0.12T\\right)",
+  "color": "#041018",
+  "fillOpacity": 0.16,
+  "lineOpacity": 0,
+  "hidden": false
+ },
+ {
+  "id": "A_thermo2",
+  "latex": "c_{z}\\left(y-c_{y}\\right)<-3.05+0.16\\sin\\left(0.30c_{z}\\left(x-c_{x}\\right)-0.10T\\right)",
+  "color": "#020B12",
+  "fillOpacity": 0.25,
+  "lineOpacity": 0,
+  "hidden": false
+ },
+ {
+  "id": "A_thermoEdge",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=-1.10+0.22\\sin\\left(0.38c_{z}\\left(x-c_{x}\\right)+0.12T\\right)",
+  "color": "#1E7A8C",
+  "lineWidth": 0.8,
+  "lineOpacity": 0.16,
+  "hidden": false
+ },
+ {
+  "id": "A_fade",
+  "latex": "y<100",
+  "color": "#01060B",
+  "fillOpacity": "0.62*m(42,0,48.6,1,T,11)",
+  "lineOpacity": 0,
+  "hidden": false
+ },
+ {
+  "id": "s2_wash",
+  "latex": "y<100",
+  "color": "#44E0D0",
+  "fillOpacity": 0.018,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "B_top",
+  "latex": "c_{z}\\left(y-c_{y}\\right)>1.35",
+  "color": "#062A38",
+  "fillOpacity": 0.45,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "B_v1",
+  "latex": "\\left(c_{x}+\\left(\\left(0.14\\left(t+0.14T\\right)+0.35\\right)\\cos\\left(t+0.22T\\right)\\right)/c_{z},c_{y}+\\left(0.18+0.66\\left(0.14\\left(t+0.14T\\right)+0.35\\right)\\sin\\left(t+0.22T\\right)\\right)/c_{z}\\right)",
+  "color": "#2AA7B8",
+  "lineWidth": 2.2,
+  "lineOpacity": "0.34+0.18p",
+  "parametricDomain": {
+   "min": "0",
+   "max": "22"
+  },
+  "hidden": true
+ },
+ {
+  "id": "B_v2",
+  "latex": "\\left(c_{x}+\\left(\\left(0.14\\left(t+0.14T\\right)+0.35\\right)\\cos\\left(t+0.22T+2.1\\right)\\right)/c_{z},c_{y}+\\left(0.18+0.66\\left(0.14\\left(t+0.14T\\right)+0.35\\right)\\sin\\left(t+0.22T+2.1\\right)\\right)/c_{z}\\right)",
+  "color": "#44E0D0",
+  "lineWidth": 1.7,
+  "lineOpacity": "0.26+0.16p",
+  "parametricDomain": {
+   "min": "0",
+   "max": "22"
+  },
+  "hidden": true
+ },
+ {
+  "id": "B_v3",
+  "latex": "\\left(c_{x}+\\left(\\left(0.14\\left(t+0.14T\\right)+0.35\\right)\\cos\\left(t+0.22T+4.2\\right)\\right)/c_{z},c_{y}+\\left(0.18+0.66\\left(0.14\\left(t+0.14T\\right)+0.35\\right)\\sin\\left(t+0.22T+4.2\\right)\\right)/c_{z}\\right)",
+  "color": "#2AA7B8",
+  "lineWidth": 1.2,
+  "lineOpacity": 0.2,
+  "parametricDomain": {
+   "min": "0",
+   "max": "22"
+  },
+  "hidden": true
+ },
+ {
+  "id": "B_cur1",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=1.05+0.42\\sin\\left(0.55c_{z}\\left(x-c_{x}\\right)+0.50T\\right)",
+  "color": "#2AA7B8",
+  "lineWidth": 1,
+  "lineOpacity": 0.18,
+  "hidden": true
+ },
+ {
+  "id": "B_cur2",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=0.52+0.50\\sin\\left(0.45c_{z}\\left(x-c_{x}\\right)-0.40T+1.7\\right)",
+  "color": "#2AA7B8",
+  "lineWidth": 0.8,
+  "lineOpacity": 0.13,
+  "hidden": true
+ },
+ {
+  "id": "B_debris",
+  "latex": "\\left(c_{x}+\\left(\\left(1.2+4.3\\operatorname{mod}\\left(0.61i,1\\right)\\right)\\cos\\left(0.50T+2.4i\\right)\\right)/c_{z},c_{y}+\\left(\\left(1.2+4.3\\operatorname{mod}\\left(0.61i,1\\right)\\right)\\sin\\left(0.50T+2.4i\\right)\\right)/c_{z}\\right)\\operatorname{for}i=\\left[1...64\\right]",
+  "color": "#7FD8E8",
+  "pointSize": 2.4,
+  "pointOpacity": 0.55,
+  "hidden": true
+ },
+ {
+  "id": "B_core",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(0.52\\right)^{2}",
+  "color": "#04121C",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "B_hit1",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(0.25+2.6f_{l}\\left(t_{c}\\left(58.41,59.03,T\\right)\\right)\\left[19\\right]\\right)^{2}",
+  "color": "#44E0D0",
+  "lineWidth": "0.8+1.4p",
+  "lineOpacity": "\\left\\{T>58.41:0.60\\left(1-f_{l}\\left(t_{c}\\left(58.41,59.03,T\\right)\\right)\\left[19\\right]\\right),0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "B_hit2",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(0.25+2.6f_{l}\\left(t_{c}\\left(58.589,59.21,T\\right)\\right)\\left[19\\right]\\right)^{2}",
+  "color": "#44E0D0",
+  "lineWidth": "0.8+1.4p",
+  "lineOpacity": "\\left\\{T>58.589:0.60\\left(1-f_{l}\\left(t_{c}\\left(58.589,59.21,T\\right)\\right)\\left[19\\right]\\right),0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "B_hit3",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(0.25+2.6f_{l}\\left(t_{c}\\left(58.77,59.39,T\\right)\\right)\\left[19\\right]\\right)^{2}",
+  "color": "#44E0D0",
+  "lineWidth": "0.8+1.4p",
+  "lineOpacity": "\\left\\{T>58.77:0.60\\left(1-f_{l}\\left(t_{c}\\left(58.77,59.39,T\\right)\\right)\\left[19\\right]\\right),0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "B_hit4",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(0.25+2.6f_{l}\\left(t_{c}\\left(58.95,59.57,T\\right)\\right)\\left[19\\right]\\right)^{2}",
+  "color": "#44E0D0",
+  "lineWidth": "0.8+1.4p",
+  "lineOpacity": "\\left\\{T>58.95:0.60\\left(1-f_{l}\\left(t_{c}\\left(58.95,59.57,T\\right)\\right)\\left[19\\right]\\right),0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "B_ribbon",
+  "latex": "\\left(c_{x}+\\left(\\left(0.14\\left(t+0.14T\\right)+0.35\\right)\\cos\\left(t+0.22T+0.8\\right)\\right)/c_{z},c_{y}+\\left(0.18+0.66\\left(0.14\\left(t+0.14T\\right)+0.35\\right)\\sin\\left(t+0.22T+0.8\\right)\\right)/c_{z}\\right)",
+  "color": "#7FE7E4",
+  "lineWidth": "5.0+2.0p",
+  "lineOpacity": "0.38+0.20p",
+  "parametricDomain": {
+   "min": "0",
+   "max": "20"
+  },
+  "hidden": true
+ },
+ {
+  "id": "B_arc",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0.18\\right)\\right)^{2}=\\left(2.4+0.15p\\right)^{2}",
+  "color": "#7FE7E4",
+  "lineWidth": "1.5+1.5p",
+  "lineOpacity": "0.22+0.18p",
+  "hidden": true
+ },
+ {
+  "id": "B_light",
+  "latex": "c_{z}\\left(y-c_{y}\\right)>2.55",
+  "color": "#0A2A3A",
+  "fillOpacity": 0.4,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s3_wash",
+  "latex": "y<100",
+  "color": "#62D8D2",
+  "fillOpacity": 0.018,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "C_band1",
+  "latex": "\\sin\\left(1.5\\left(c_{z}\\left(x-c_{x}\\right)\\cos\\left(0.6\\right)+c_{z}\\left(y-c_{y}\\right)\\sin\\left(0.6\\right)\\right)-2.2T\\right)>0.62",
+  "color": "#0B2E3E",
+  "fillOpacity": 0.32,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "C_band2",
+  "latex": "\\sin\\left(1.4\\left(c_{z}\\left(x-c_{x}\\right)\\cos\\left(-0.5\\right)+c_{z}\\left(y-c_{y}\\right)\\sin\\left(-0.5\\right)\\right)+2.0T\\right)>0.75",
+  "color": "#0A3A48",
+  "fillOpacity": 0.24,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "C_band3",
+  "latex": "\\left|\\sin\\left(3.2\\left(c_{z}\\left(x-c_{x}\\right)\\cos\\left(0.2\\right)+c_{z}\\left(y-c_{y}\\right)\\sin\\left(0.2\\right)\\right)-3.0T\\right)\\right|<0.02",
+  "color": "#44E0D0",
+  "fillOpacity": 0.26,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "C_block",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(-2.2*\\left(0.35+0.65*m(59.04,0,59.34,1,T,16)\\right)\\right)/c_{z},c_{y}+\\left(-1.4*\\left(0.35+0.65*m(59.04,0,59.34,1,T,16)\\right)\\right)/c_{z}\\right),\\left(c_{x}+\\left(1.9*\\left(0.35+0.65*m(59.04,0,59.34,1,T,16)\\right)\\right)/c_{z},c_{y}+\\left(-0.9*\\left(0.35+0.65*m(59.04,0,59.34,1,T,16)\\right)\\right)/c_{z}\\right),\\left(c_{x}+\\left(2.4*\\left(0.35+0.65*m(59.04,0,59.34,1,T,16)\\right)\\right)/c_{z},c_{y}+\\left(1.2*\\left(0.35+0.65*m(59.04,0,59.34,1,T,16)\\right)\\right)/c_{z}\\right),\\left(c_{x}+\\left(-1.2*\\left(0.35+0.65*m(59.04,0,59.34,1,T,16)\\right)\\right)/c_{z},c_{y}+\\left(1.6*\\left(0.35+0.65*m(59.04,0,59.34,1,T,16)\\right)\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#0B2E3E",
+  "fillOpacity": 0.55,
+  "lineWidth": "1.0+1.4p",
+  "lineOpacity": "0.35+0.30p",
+  "hidden": true
+ },
+ {
+  "id": "C_bubbles",
+  "latex": "\\left(c_{x}+\\left(\\operatorname{mod}\\left(5.1i+0.8T,18\\right)-9\\right)/c_{z},c_{y}+\\left(\\operatorname{mod}\\left(0.55i+0.42T,9\\right)-4.5\\right)/c_{z}\\right)\\operatorname{for}i=\\left[1...48\\right]",
+  "color": "#62D8D2",
+  "pointSize": "2.0+2.0p",
+  "pointOpacity": 0.42,
+  "hidden": true
+ },
+ {
+  "id": "C_speed1",
+  "latex": "\\left|\\sin\\left(4c_{z}\\left(x-c_{x}\\right)+6T\\right)\\right|<0.006",
+  "color": "#62D8D2",
+  "fillOpacity": 0.13,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "C_speed2",
+  "latex": "\\left|\\sin\\left(5c_{z}\\left(y-c_{y}\\right)-4T\\right)\\right|<0.006",
+  "color": "#44E0D0",
+  "fillOpacity": 0.08,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "C_core",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(1.00+0.15p\\right)^{2}",
+  "color": "#7FE7E4",
+  "lineWidth": "2.0+2.0p",
+  "lineOpacity": "0.35+0.25p",
+  "hidden": true
+ },
+ {
+  "id": "C_flare",
+  "latex": "\\left(c_{x}+\\left(0\\right)/c_{z},c_{y}+\\left(0\\right)/c_{z}\\right)",
+  "color": "#E8FBFF",
+  "pointSize": "18+22p",
+  "pointOpacity": "0.55+0.2p",
+  "hidden": true
+ },
+ {
+  "id": "C_streak",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=0.20+0.45\\sin\\left(0.65c_{z}\\left(x-c_{x}\\right)-1.8T\\right)",
+  "color": "#7FE7E4",
+  "lineWidth": "3.0+2.0p",
+  "lineOpacity": "0.25+0.20p",
+  "hidden": true
+ },
+ {
+  "id": "C_breath",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-0.1\\right)^{2}=\\left(0.7+1.5*m(67.62,0,69.33,1,T,11)\\right)^{2}",
+  "color": "#A8F0E8",
+  "lineWidth": "0.9+1.2p",
+  "lineOpacity": "0.20+0.35p",
+  "hidden": true
+ },
+ {
+  "id": "C_dark",
+  "latex": "c_{z}\\left(y-c_{y}\\right)<-3.4",
+  "color": "#01060B",
+  "fillOpacity": 0.45,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s4_wash",
+  "latex": "y<100",
+  "color": "#2AA7B8",
+  "fillOpacity": 0.018,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "D_v1",
+  "latex": "\\left(c_{x}+\\left(\\left(0.13\\left(t+0.15T\\right)+0.40\\right)\\cos\\left(t+0.18T\\right)\\right)/c_{z},c_{y}+\\left(\\left(0.13\\left(t+0.15T\\right)+0.40\\right)\\sin\\left(t+0.18T\\right)\\right)/c_{z}\\right)",
+  "color": "#2AA7B8",
+  "lineWidth": 1,
+  "lineOpacity": "0.28+0.18p",
+  "parametricDomain": {
+   "min": "0",
+   "max": "26"
+  },
+  "hidden": true
+ },
+ {
+  "id": "D_v2",
+  "latex": "\\left(c_{x}+\\left(\\left(0.13\\left(t+0.15T\\right)+0.40\\right)\\cos\\left(t+0.18T+2.1\\right)\\right)/c_{z},c_{y}+\\left(\\left(0.13\\left(t+0.15T\\right)+0.40\\right)\\sin\\left(t+0.18T+2.1\\right)\\right)/c_{z}\\right)",
+  "color": "#44E0D0",
+  "lineWidth": 0.8,
+  "lineOpacity": "0.20+0.14p",
+  "parametricDomain": {
+   "min": "0",
+   "max": "26"
+  },
+  "hidden": true
+ },
+ {
+  "id": "D_v3",
+  "latex": "\\left(c_{x}+\\left(\\left(0.13\\left(t+0.15T\\right)+0.40\\right)\\cos\\left(t+0.18T+4.2\\right)\\right)/c_{z},c_{y}+\\left(\\left(0.13\\left(t+0.15T\\right)+0.40\\right)\\sin\\left(t+0.18T+4.2\\right)\\right)/c_{z}\\right)",
+  "color": "#2AA7B8",
+  "lineWidth": 0.6,
+  "lineOpacity": 0.16,
+  "parametricDomain": {
+   "min": "0",
+   "max": "26"
+  },
+  "hidden": true
+ },
+ {
+  "id": "D_gridH",
+  "latex": "\\left|\\sin\\left(2.4c_{z}\\left(y-c_{y}\\right)+0.05T\\right)\\right|<0.012",
+  "color": "#1E7A8C",
+  "fillOpacity": 0.17,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "D_gridV",
+  "latex": "\\left|\\sin\\left(1.6c_{z}\\left(x-c_{x}\\right)-0.04T\\right)\\right|<0.008",
+  "color": "#1E7A8C",
+  "fillOpacity": 0.11,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "D_ticks",
+  "latex": "\\left(c_{x}+\\left(-7.7\\right)/c_{z},c_{y}+\\left(-4.4+0.42i\\right)/c_{z}\\right)\\operatorname{for}i=\\left[1...22\\right]",
+  "color": "#7FD8E8",
+  "pointSize": 2.4,
+  "pointOpacity": 0.52,
+  "hidden": true
+ },
+ {
+  "id": "D_debris",
+  "latex": "\\left(c_{x}+\\left(\\left(1.5+4.8\\operatorname{mod}\\left(0.57i,1\\right)\\right)\\cos\\left(-0.42T+2.2i\\right)\\right)/c_{z},c_{y}+\\left(\\left(1.5+4.8\\operatorname{mod}\\left(0.57i,1\\right)\\right)\\sin\\left(-0.42T+2.2i\\right)\\right)/c_{z}\\right)\\operatorname{for}i=\\left[1...76\\right]",
+  "color": "#7FD8E8",
+  "pointSize": 2,
+  "pointOpacity": 0.48,
+  "hidden": true
+ },
+ {
+  "id": "D_core",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(0.48\\right)^{2}",
+  "color": "#020A12",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "D_ring",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(3.2+0.55p\\right)^{2}",
+  "color": "#2AA7B8",
+  "lineWidth": "0.7+1.4p",
+  "lineOpacity": "0.12+0.16p",
+  "hidden": true
+ },
+ {
+  "id": "D_light",
+  "latex": "c_{z}\\left(y-c_{y}\\right)>2.6",
+  "color": "#0A2A3A",
+  "fillOpacity": 0.28,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s5_wash",
+  "latex": "y<100",
+  "color": "#1E7A8C",
+  "fillOpacity": 0.018,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "E_crack1",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(-9.6\\right)/c_{z},c_{y}+\\left(5.7\\right)/c_{z}\\right),\\left(c_{x}+\\left(-2.35\\right)/c_{z},c_{y}+\\left(2.55\\right)/c_{z}\\right),\\left(c_{x}+\\left(-2.62\\right)/c_{z},c_{y}+\\left(2.28\\right)/c_{z}\\right),\\left(c_{x}+\\left(-9.6\\right)/c_{z},c_{y}+\\left(4.15\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#0A2A3A",
+  "fillOpacity": 0.1,
+  "lineWidth": 0.6,
+  "lineOpacity": 0.18,
+  "hidden": true
+ },
+ {
+  "id": "E_crack2",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(-9.6\\right)/c_{z},c_{y}+\\left(4.20\\right)/c_{z}\\right),\\left(c_{x}+\\left(-2.36\\right)/c_{z},c_{y}+\\left(2.45\\right)/c_{z}\\right),\\left(c_{x}+\\left(-2.48\\right)/c_{z},c_{y}+\\left(2.32\\right)/c_{z}\\right),\\left(c_{x}+\\left(-9.6\\right)/c_{z},c_{y}+\\left(3.80\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#BFE3EA",
+  "fillOpacity": 0.16,
+  "lineWidth": 0.8,
+  "lineOpacity": 0.35,
+  "hidden": true
+ },
+ {
+  "id": "E_dust",
+  "latex": "\\left(c_{x}+\\left(\\operatorname{mod}\\left(5.7i,19\\right)-9.5\\right)/c_{z},c_{y}+\\left(\\operatorname{mod}\\left(0.27i+0.03T,11\\right)-5.5\\right)/c_{z}\\right)\\operatorname{for}i=\\left[1...48\\right]",
+  "color": "#7FD8E8",
+  "pointSize": "1.8+1.8p",
+  "pointOpacity": 0.42,
+  "hidden": true
+ },
+ {
+  "id": "E_depth",
+  "latex": "\\left|\\sin\\left(0.62c_{z}\\left(y-c_{y}\\right)+0.10T\\right)\\right|<0.015",
+  "color": "#1E7A8C",
+  "fillOpacity": 0.06,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "E_crackCore",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=1.88-0.2417c_{z}\\left(x-c_{x}\\right)\\left\\{c_{z}\\left(x-c_{x}\\right)<-2.3\\right\\}",
+  "color": "#E8FBFF",
+  "lineWidth": "1.0+2.0p",
+  "lineOpacity": "0.55+0.25p",
+  "hidden": true
+ },
+ {
+  "id": "E_beam",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=0.4+0.03\\sin\\left(0.3T\\right)\\left\\{-9.6<c_{z}\\left(x-c_{x}\\right)\\right\\}",
+  "color": "#BFE3EA",
+  "lineWidth": "0.5+0.8p",
+  "lineOpacity": "0.07+0.06p",
+  "hidden": true
+ },
+ {
+  "id": "E_shout1",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(2.2\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0.4\\right)\\right)^{2}=\\left(0.35+7.0f_{l}\\left(t_{c}\\left(112,113.4,T\\right)\\right)\\left[19\\right]\\right)^{2}",
+  "color": "#BFE3EA",
+  "lineWidth": "2.4+3.2p",
+  "lineOpacity": "\\left\\{T>112:0.85\\left(1-f_{l}\\left(t_{c}\\left(112,113.40,T\\right)\\right)\\left[19\\right]\\right),0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "E_shout2",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(2.2\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0.4\\right)\\right)^{2}=\\left(0.55+8.2f_{l}\\left(t_{c}\\left(112.12,113.52,T\\right)\\right)\\left[19\\right]\\right)^{2}",
+  "color": "#BFE3EA",
+  "lineWidth": "2.4+3.2p",
+  "lineOpacity": "\\left\\{T>112.12:0.85\\left(1-f_{l}\\left(t_{c}\\left(112.12,113.52,T\\right)\\right)\\left[19\\right]\\right),0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "E_shout3",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(2.2\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0.4\\right)\\right)^{2}=\\left(0.75+9.4f_{l}\\left(t_{c}\\left(112.24,113.64,T\\right)\\right)\\left[19\\right]\\right)^{2}",
+  "color": "#BFE3EA",
+  "lineWidth": "2.4+3.2p",
+  "lineOpacity": "\\left\\{T>112.24:0.85\\left(1-f_{l}\\left(t_{c}\\left(112.24,113.64,T\\right)\\right)\\left[19\\right]\\right),0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "E_point",
+  "latex": "\\left(c_{x}+\\left(2.2\\right)/c_{z},c_{y}+\\left(0.4\\right)/c_{z}\\right)",
+  "color": "#E8FBFF",
+  "pointSize": "12+22p",
+  "pointOpacity": "\\left\\{T>111.9:0.9,0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "E_voidRing",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(2.2\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0.4\\right)\\right)^{2}=\\left(4.6\\right)^{2}",
+  "color": "#BFE3EA",
+  "lineWidth": "0.6+0.8p",
+  "lineOpacity": "0.10+0.08p",
+  "hidden": true
+ },
+ {
+  "id": "E_shoutPoint",
+  "latex": "\\left(c_{x}+\\left(2.2\\right)/c_{z},c_{y}+\\left(0.4\\right)/c_{z}\\right)",
+  "color": "#E8FBFF",
+  "pointSize": "8+58\\left(1-f_{l}\\left(t_{c}\\left(112,113.2,T\\right)\\right)\\left[19\\right]\\right)",
+  "pointOpacity": "\\left\\{T>112:0.9,0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "E_shoutBeam",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=0.4\\left\\{c_{z}\\left(x-c_{x}\\right)>2.2\\right\\}\\left\\{T>112\\right\\}",
+  "color": "#BFE3EA",
+  "lineWidth": "1.5+3.0p",
+  "lineOpacity": "\\left\\{T>112:0.55\\left(1-f_{l}\\left(t_{c}\\left(112,113.4,T\\right)\\right)\\left[19\\right]\\right),0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "E_fade",
+  "latex": "y<100",
+  "color": "#01060B",
+  "fillOpacity": "0.20*m(93,0,100,1,T,11)",
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s6_wash",
+  "latex": "y<100",
+  "color": "#2AA7B8",
+  "fillOpacity": 0.018,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "F_r1",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(1.0*1+0.12\\sin\\left(\\pi\\left(T-116.25\\right)/2.167\\right)\\right)^{2}",
+  "color": "#2AA7B8",
+  "lineWidth": 1.2,
+  "lineOpacity": 0.45,
+  "hidden": true
+ },
+ {
+  "id": "F_r2",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(1.45*1+0.12\\sin\\left(\\pi\\left(T-116.25\\right)/2.167\\right)\\right)^{2}",
+  "color": "#44E0D0",
+  "lineWidth": 0.9,
+  "lineOpacity": 0.25,
+  "hidden": true
+ },
+ {
+  "id": "F_r3",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(0.62*1+0.12\\sin\\left(\\pi\\left(T-116.25\\right)/2.167\\right)\\right)^{2}",
+  "color": "#A8F0E8",
+  "lineWidth": 1.4,
+  "lineOpacity": 0.55,
+  "hidden": true
+ },
+ {
+  "id": "F_dust",
+  "latex": "\\left(c_{x}+\\left(\\left(2.6+1.4\\operatorname{mod}\\left(0.63i,1\\right)\\right)\\cos\\left(6.283\\operatorname{mod}\\left(0.37i,1\\right)+0.2T\\right)\\left(1-0.75t_{c}\\left(116.25,118.0,T\\right)\\right)\\right)/c_{z},c_{y}+\\left(\\left(2.6+1.4\\operatorname{mod}\\left(0.63i,1\\right)\\right)\\sin\\left(6.283\\operatorname{mod}\\left(0.37i,1\\right)+0.2T\\right)\\left(1-0.75t_{c}\\left(116.25,118.0,T\\right)\\right)\\right)/c_{z}\\right)\\operatorname{for}i=\\left[1...40\\right]",
+  "color": "#7FD8E8",
+  "pointSize": 2.2,
+  "pointOpacity": 0.5,
+  "hidden": true
+ },
+ {
+  "id": "s7_wash",
+  "latex": "y<100",
+  "color": "#2AA7B8",
+  "fillOpacity": 0.018,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "G_ring1",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(2.45\\right)^{2}",
+  "color": "#2AA7B8",
+  "lineWidth": "1.8+1.4p",
+  "lineOpacity": "0.42+0.22p",
+  "hidden": true
+ },
+ {
+  "id": "G_ring2",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(2.05\\right)^{2}",
+  "color": "#1E7A8C",
+  "lineWidth": 0.9,
+  "lineOpacity": 0.28,
+  "hidden": true
+ },
+ {
+  "id": "G_ticks",
+  "latex": "\\left(c_{x}+\\left(2.28\\cos\\left(0.2618i\\right)\\right)/c_{z},c_{y}+\\left(2.28\\sin\\left(0.2618i\\right)\\right)/c_{z}\\right)\\operatorname{for}i=\\left[1...48\\right]",
+  "color": "#7FD8E8",
+  "pointSize": "2.2+2.2p",
+  "pointOpacity": 0.75,
+  "hidden": true
+ },
+ {
+  "id": "G_wallL",
+  "latex": "c_{z}\\left(x-c_{x}\\right)<-5.4+0.35\\sin\\left(0.2T\\right)",
+  "color": "#01030A",
+  "fillOpacity": 0.55,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "G_wallR",
+  "latex": "c_{z}\\left(x-c_{x}\\right)>5.4-0.35\\sin\\left(0.2T\\right)",
+  "color": "#01030A",
+  "fillOpacity": 0.55,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "G_red1",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=1.15+0.02\\sin\\left(0.4T\\right)",
+  "color": "#FF5A6E",
+  "lineWidth": 0.8,
+  "lineOpacity": "\\left\\{T>118.417:0.40+0.15p,0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "G_red2",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-0.0\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)\\right)^{2}=2.12^{2}",
+  "color": "#FF5A6E",
+  "lineWidth": 0.8,
+  "lineOpacity": "\\left\\{T>118.417:0.20+0.10p,0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "G_red3",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=-1.6+0.02\\sin\\left(0.5T+1\\right)",
+  "color": "#FF5A6E",
+  "lineWidth": 0.7,
+  "lineOpacity": "\\left\\{T>125:0.18+0.10p,0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "G_needle",
+  "latex": "\\left(c_{x}+\\left(2.05t\\cos\\left(0.5+0.02\\left(T-118.417\\right)\\right)\\right)/c_{z},c_{y}+\\left(2.05t\\sin\\left(0.5+0.02\\left(T-118.417\\right)\\right)\\right)/c_{z}\\right)",
+  "color": "#FFE7BC",
+  "lineWidth": "1.4+1.0p",
+  "lineOpacity": "0.55+0.20p",
+  "parametricDomain": {
+   "min": "0",
+   "max": "1"
+  },
+  "hidden": true
+ },
+ {
+  "id": "G_pulse",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(0.8+1.8p\\right)^{2}",
+  "color": "#2AA7B8",
+  "lineWidth": "0.6+1.4p",
+  "lineOpacity": "0.10+0.14p",
+  "hidden": true
+ },
+ {
+  "id": "s8_wash",
+  "latex": "y<100",
+  "color": "#2AA7B8",
+  "fillOpacity": 0.018,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "H_t1",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)/\\left(1.2+0.06\\sin\\left(0.6T\\right)\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)/\\left(0.62\\left(1.2+0.06\\sin\\left(0.6T\\right)\\right)\\right)\\right)^{2}=1",
+  "color": "#2AA7B8",
+  "lineWidth": "1.2+1.4p",
+  "lineOpacity": 0.42,
+  "hidden": true
+ },
+ {
+  "id": "H_t2",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)/\\left(2.1+0.10\\sin\\left(0.6T+1\\right)\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)/\\left(0.62\\left(2.1+0.10\\sin\\left(0.6T+1\\right)\\right)\\right)\\right)^{2}=1",
+  "color": "#2AA7B8",
+  "lineWidth": "1.2+1.4p",
+  "lineOpacity": 0.28,
+  "hidden": true
+ },
+ {
+  "id": "H_t3",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)/\\left(3.3+0.14\\sin\\left(0.6T+2\\right)\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)/\\left(0.62\\left(3.3+0.14\\sin\\left(0.6T+2\\right)\\right)\\right)\\right)^{2}=1",
+  "color": "#2AA7B8",
+  "lineWidth": "1.2+1.4p",
+  "lineOpacity": 0.18,
+  "hidden": true
+ },
+ {
+  "id": "H_t4",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)/\\left(4.8+0.18\\sin\\left(0.6T+3\\right)\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)/\\left(0.62\\left(4.8+0.18\\sin\\left(0.6T+3\\right)\\right)\\right)\\right)^{2}=1",
+  "color": "#2AA7B8",
+  "lineWidth": "1.2+1.4p",
+  "lineOpacity": 0.12,
+  "hidden": true
+ },
+ {
+  "id": "H_v1",
+  "latex": "\\left(c_{x}+\\left(\\left(0.15\\left(t+0.15T\\right)+0.30\\right)\\cos\\left(t+0.2T\\right)\\right)/c_{z},c_{y}+\\left(\\left(0.15\\left(t+0.15T\\right)+0.30\\right)\\sin\\left(t+0.2T\\right)\\right)/c_{z}\\right)",
+  "color": "#2AA7B8",
+  "lineWidth": 0.9,
+  "lineOpacity": "0.22+0.16p",
+  "parametricDomain": {
+   "min": "0",
+   "max": "26"
+  },
+  "hidden": true
+ },
+ {
+  "id": "H_v2",
+  "latex": "\\left(c_{x}+\\left(\\left(0.15\\left(t+0.15T\\right)+0.30\\right)\\cos\\left(t+0.2T+2.1\\right)\\right)/c_{z},c_{y}+\\left(\\left(0.15\\left(t+0.15T\\right)+0.30\\right)\\sin\\left(t+0.2T+2.1\\right)\\right)/c_{z}\\right)",
+  "color": "#44E0D0",
+  "lineWidth": 0.7,
+  "lineOpacity": "0.18+0.14p",
+  "parametricDomain": {
+   "min": "0",
+   "max": "26"
+  },
+  "hidden": true
+ },
+ {
+  "id": "H_core",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(0.55\\right)^{2}",
+  "color": "#020A12",
+  "fillOpacity": 1,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "H_slit",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=1.35+0.02\\sin\\left(0.4T\\right)",
+  "color": "#FFD9A0",
+  "lineWidth": "0.5+0.8p",
+  "lineOpacity": "\\left\\{T>160.5:0.18+0.10p,0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "H_slitGlow",
+  "latex": "\\left|c_{z}\\left(y-c_{y}\\right)-1.35\\right|<0.12\\left\\{c_{z}\\left(x-c_{x}\\right)>-3\\right\\}\\left\\{c_{z}\\left(x-c_{x}\\right)<4\\right\\}",
+  "color": "#FFD9A0",
+  "fillOpacity": "\\left\\{T>160.5:0.045,0\\right\\}",
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s9_wash",
+  "latex": "y<100",
+  "color": "#FFD9A0",
+  "fillOpacity": 0.018,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "I_shaft1",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(1.6\\right)/c_{z},c_{y}+\\left(5.8\\right)/c_{z}\\right),\\left(c_{x}+\\left(4.4\\right)/c_{z},c_{y}+\\left(5.8\\right)/c_{z}\\right),\\left(c_{x}+\\left(1.2\\right)/c_{z},c_{y}+\\left(-2.6\\right)/c_{z}\\right),\\left(c_{x}+\\left(0.2\\right)/c_{z},c_{y}+\\left(-2.4\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#FFD9A0",
+  "fillOpacity": "0.10+0.05p",
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "I_shaft2",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(2.4\\right)/c_{z},c_{y}+\\left(5.8\\right)/c_{z}\\right),\\left(c_{x}+\\left(3.5\\right)/c_{z},c_{y}+\\left(5.8\\right)/c_{z}\\right),\\left(c_{x}+\\left(1.35\\right)/c_{z},c_{y}+\\left(-1.8\\right)/c_{z}\\right),\\left(c_{x}+\\left(0.85\\right)/c_{z},c_{y}+\\left(-1.7\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#FFE7BC",
+  "fillOpacity": "0.14+0.06p",
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "I_shaft3",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(2.85\\right)/c_{z},c_{y}+\\left(5.8\\right)/c_{z}\\right),\\left(c_{x}+\\left(3.15\\right)/c_{z},c_{y}+\\left(5.8\\right)/c_{z}\\right),\\left(c_{x}+\\left(1.45\\right)/c_{z},c_{y}+\\left(-1.2\\right)/c_{z}\\right),\\left(c_{x}+\\left(1.25\\right)/c_{z},c_{y}+\\left(-1.2\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#FFF0D0",
+  "fillOpacity": 0.2,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "I_crack",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(-9.8\\right)/c_{z},c_{y}+\\left(1.66\\right)/c_{z}\\right),\\left(c_{x}+\\left(4.8\\right)/c_{z},c_{y}+\\left(1.40\\right)/c_{z}\\right),\\left(c_{x}+\\left(4.8\\right)/c_{z},c_{y}+\\left(1.36\\right)/c_{z}\\right),\\left(c_{x}+\\left(-9.8\\right)/c_{z},c_{y}+\\left(1.56\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#FFF0D0",
+  "fillOpacity": "0.22+0.08p",
+  "lineWidth": "0.6+0.8p",
+  "lineOpacity": "0.55+0.25p",
+  "hidden": true
+ },
+ {
+  "id": "I_dust",
+  "latex": "\\left(c_{x}+\\left(\\operatorname{mod}\\left(6.1i,19\\right)-9.5\\right)/c_{z},c_{y}+\\left(\\operatorname{mod}\\left(0.23i+0.04T,11\\right)-5.5\\right)/c_{z}\\right)\\operatorname{for}i=\\left[1...54\\right]",
+  "color": "#FFE7BC",
+  "pointSize": "1.2+1.6p",
+  "pointOpacity": 0.3,
+  "hidden": true
+ },
+ {
+  "id": "I_contour1",
+  "latex": "\\left(c_{x}+\\left(2.8+1.05\\cos\\left(t\\right)+0.18\\sin\\left(3t\\right)\\right)/c_{z},c_{y}+\\left(-0.9+1.55\\sin\\left(t\\right)+0.12\\sin\\left(2t\\right)\\right)/c_{z}\\right)",
+  "color": "#FFD9A0",
+  "lineWidth": 1,
+  "lineOpacity": 0.38,
+  "parametricDomain": {
+   "min": "0",
+   "max": "6.283"
+  },
+  "hidden": true
+ },
+ {
+  "id": "I_contour2",
+  "latex": "\\left(c_{x}+\\left(3.25+1.05\\cos\\left(t+0.4\\right)+0.16\\sin\\left(3t\\right)\\right)/c_{z},c_{y}+\\left(-0.75+1.55\\sin\\left(t+0.4\\right)+0.10\\sin\\left(2t\\right)\\right)/c_{z}\\right)",
+  "color": "#9EDCE8",
+  "lineWidth": 0.9,
+  "lineOpacity": 0.3,
+  "parametricDomain": {
+   "min": "0",
+   "max": "6.283"
+  },
+  "hidden": true
+ },
+ {
+  "id": "I_reach",
+  "latex": "\\left(c_{x}+\\left(-8.2+10.0*m(182.6,0.15,184.6,1,T,19)t\\right)/c_{z},c_{y}+\\left(-4.7+5.6*m(182.6,0.15,184.6,1,T,19)t+0.25\\sin\\left(3t\\right)\\right)/c_{z}\\right)",
+  "color": "#FFD9A0",
+  "lineWidth": "1.2+1.6p",
+  "lineOpacity": "0.55+0.25p",
+  "parametricDomain": {
+   "min": "0",
+   "max": "1"
+  },
+  "hidden": true
+ },
+ {
+  "id": "I_star",
+  "latex": "\\operatorname{polygon}\\left(\\left(\\left(c_{x}+\\left(0.45\\left(1-0.62\\operatorname{mod}\\left(i,2\\right)\\right)\\cos\\left(1.5708i+0.7854\\right)+5.2-9.6*m(182.6,0.15,184.6,1,T,19)\\right)/c_{z},c_{y}+\\left(0.45\\left(1-0.62\\operatorname{mod}\\left(i,2\\right)\\right)\\sin\\left(1.5708i+0.7854\\right)+1.55+0.35\\sin\\left(0.5T\\right)\\right)/c_{z}\\right)\\right)\\operatorname{for}i=\\left[1...8\\right]\\right)",
+  "color": "#FFF0D0",
+  "fillOpacity": 0.35,
+  "lineWidth": 1,
+  "lineOpacity": 0.75,
+  "hidden": true
+ },
+ {
+  "id": "I_starGlow",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(5.2-9.6*m(182.6,0.15,184.6,1,T,19)\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(1.55+0.35\\sin\\left(0.5T\\right)\\right)\\right)^{2}=\\left(1.4+0.12p\\right)^{2}",
+  "color": "#FFD9A0",
+  "fillOpacity": 0,
+  "lineWidth": 1.1,
+  "lineOpacity": "0.20+0.10p",
+  "hidden": true
+ },
+ {
+  "id": "I_plate",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(-10\\right)/c_{z},c_{y}+\\left(5.8\\right)/c_{z}\\right),\\left(c_{x}+\\left(10\\right)/c_{z},c_{y}+\\left(5.8\\right)/c_{z}\\right),\\left(c_{x}+\\left(10\\right)/c_{z},c_{y}+\\left(4.9\\right)/c_{z}\\right),\\left(c_{x}+\\left(-10\\right)/c_{z},c_{y}+\\left(5.1\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#FFD9A0",
+  "fillOpacity": "0.10*m(187.6,1,187.9,0.2,T,16)",
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "s10_wash",
+  "latex": "y<100",
+  "color": "#9EDCE8",
+  "fillOpacity": 0.018,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "J_beam1",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(-8.5\\right)/c_{z},c_{y}+\\left(5.7\\right)/c_{z}\\right),\\left(c_{x}+\\left(-6.8\\right)/c_{z},c_{y}+\\left(5.7\\right)/c_{z}\\right),\\left(c_{x}+\\left(-1.2\\right)/c_{z},c_{y}+\\left(-3.5\\right)/c_{z}\\right),\\left(c_{x}+\\left(-2.6\\right)/c_{z},c_{y}+\\left(-3.5\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#9EDCE8",
+  "fillOpacity": 0.08,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "J_beam2",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(6.5\\right)/c_{z},c_{y}+\\left(5.7\\right)/c_{z}\\right),\\left(c_{x}+\\left(8.2\\right)/c_{z},c_{y}+\\left(5.7\\right)/c_{z}\\right),\\left(c_{x}+\\left(3.2\\right)/c_{z},c_{y}+\\left(-3.2\\right)/c_{z}\\right),\\left(c_{x}+\\left(2.0\\right)/c_{z},c_{y}+\\left(-3.2\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#FFD9A0",
+  "fillOpacity": 0.07,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "J_beam3",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(-1.2\\right)/c_{z},c_{y}+\\left(5.7\\right)/c_{z}\\right),\\left(c_{x}+\\left(0.4\\right)/c_{z},c_{y}+\\left(5.7\\right)/c_{z}\\right),\\left(c_{x}+\\left(-0.2\\right)/c_{z},c_{y}+\\left(-4.0\\right)/c_{z}\\right),\\left(c_{x}+\\left(-1.2\\right)/c_{z},c_{y}+\\left(-4.0\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#9EDCE8",
+  "fillOpacity": 0.09,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "J_sh1",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(-5.05\\right)/c_{z},c_{y}+\\left(1.26\\right)/c_{z}\\right),\\left(c_{x}+\\left(-3.6050000000000004\\right)/c_{z},c_{y}+\\left(1.4300000000000002\\right)/c_{z}\\right),\\left(c_{x}+\\left(-3.8600000000000003\\right)/c_{z},c_{y}+\\left(2.1100000000000003\\right)/c_{z}\\right),\\left(c_{x}+\\left(-4.795\\right)/c_{z},c_{y}+\\left(1.8975\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#9EDCE8",
+  "fillOpacity": 0.12,
+  "lineWidth": 1.2,
+  "lineOpacity": 0.68,
+  "hidden": true
+ },
+ {
+  "id": "J_sh2",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(-2.02\\right)/c_{z},c_{y}+\\left(2.152\\right)/c_{z}\\right),\\left(c_{x}+\\left(-0.966\\right)/c_{z},c_{y}+\\left(2.276\\right)/c_{z}\\right),\\left(c_{x}+\\left(-1.152\\right)/c_{z},c_{y}+\\left(2.772\\right)/c_{z}\\right),\\left(c_{x}+\\left(-1.8339999999999999\\right)/c_{z},c_{y}+\\left(2.617\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#9EDCE8",
+  "fillOpacity": 0.12,
+  "lineWidth": 1.2,
+  "lineOpacity": 0.68,
+  "hidden": true
+ },
+ {
+  "id": "J_sh3",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(2.8499999999999996\\right)/c_{z},c_{y}+\\left(0.42000000000000004\\right)/c_{z}\\right),\\left(c_{x}+\\left(4.465\\right)/c_{z},c_{y}+\\left(0.6100000000000001\\right)/c_{z}\\right),\\left(c_{x}+\\left(4.18\\right)/c_{z},c_{y}+\\left(1.37\\right)/c_{z}\\right),\\left(c_{x}+\\left(3.135\\right)/c_{z},c_{y}+\\left(1.1325\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#9EDCE8",
+  "fillOpacity": 0.12,
+  "lineWidth": 1.2,
+  "lineOpacity": 0.68,
+  "hidden": true
+ },
+ {
+  "id": "J_sh4",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(0.04999999999999993\\right)/c_{z},c_{y}+\\left(0.9299999999999999\\right)/c_{z}\\right),\\left(c_{x}+\\left(0.985\\right)/c_{z},c_{y}+\\left(1.0399999999999998\\right)/c_{z}\\right),\\left(c_{x}+\\left(0.8200000000000001\\right)/c_{z},c_{y}+\\left(1.48\\right)/c_{z}\\right),\\left(c_{x}+\\left(0.21499999999999997\\right)/c_{z},c_{y}+\\left(1.3424999999999998\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#9EDCE8",
+  "fillOpacity": 0.12,
+  "lineWidth": 1.2,
+  "lineOpacity": 0.68,
+  "hidden": true
+ },
+ {
+  "id": "J_sh5",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(-3.7\\right)/c_{z},c_{y}+\\left(-0.6299999999999999\\right)/c_{z}\\right),\\left(c_{x}+\\left(-2.5100000000000002\\right)/c_{z},c_{y}+\\left(-0.49\\right)/c_{z}\\right),\\left(c_{x}+\\left(-2.72\\right)/c_{z},c_{y}+\\left(0.07\\right)/c_{z}\\right),\\left(c_{x}+\\left(-3.4899999999999998\\right)/c_{z},c_{y}+\\left(-0.10500000000000001\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#9EDCE8",
+  "fillOpacity": 0.12,
+  "lineWidth": 1.2,
+  "lineOpacity": 0.68,
+  "hidden": true
+ },
+ {
+  "id": "J_sh6",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(1.7200000000000002\\right)/c_{z},c_{y}+\\left(-1.092\\right)/c_{z}\\right),\\left(c_{x}+\\left(2.536\\right)/c_{z},c_{y}+\\left(-0.996\\right)/c_{z}\\right),\\left(c_{x}+\\left(2.3920000000000003\\right)/c_{z},c_{y}+\\left(-0.6120000000000001\\right)/c_{z}\\right),\\left(c_{x}+\\left(1.8640000000000003\\right)/c_{z},c_{y}+\\left(-0.732\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#9EDCE8",
+  "fillOpacity": 0.12,
+  "lineWidth": 1.2,
+  "lineOpacity": 0.68,
+  "hidden": true
+ },
+ {
+  "id": "J_dust",
+  "latex": "\\left(c_{x}+\\left(\\operatorname{mod}\\left(6.7i,19\\right)-9.5\\right)/c_{z},c_{y}+\\left(\\operatorname{mod}\\left(0.21i+0.03T,11\\right)-5.5\\right)/c_{z}\\right)\\operatorname{for}i=\\left[1...42\\right]",
+  "color": "#9EDCE8",
+  "pointSize": "1.2+1.4p",
+  "pointOpacity": 0.34,
+  "hidden": true
+ },
+ {
+  "id": "J_line",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=0.2+0.02\\sin\\left(0.5T\\right)",
+  "color": "#9EDCE8",
+  "lineWidth": "0.5+1.0p",
+  "lineOpacity": "0.25+0.20p",
+  "hidden": true
+ },
+ {
+  "id": "J_breath",
+  "latex": "\\left(c_{x}+\\left(0\\right)/c_{z},c_{y}+\\left(0.2\\right)/c_{z}\\right)",
+  "color": "#FFD9A0",
+  "pointSize": "20+18p",
+  "pointOpacity": 0.55,
+  "hidden": true
+ },
+ {
+  "id": "J_ring",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0.2\\right)\\right)^{2}=\\left(1.0+0.06\\sin\\left(0.9T\\right)+0.2p\\right)^{2}",
+  "color": "#FFD9A0",
+  "lineWidth": 0.8,
+  "lineOpacity": "0.18+0.10p",
+  "hidden": true
+ },
+ {
+  "id": "s11_wash",
+  "latex": "y<100",
+  "color": "#FFCF9A",
+  "fillOpacity": 0.018,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "K_band1",
+  "latex": "\\sin\\left(1.8\\left(c_{z}\\left(x-c_{x}\\right)\\cos\\left(0.4\\right)+c_{z}\\left(y-c_{y}\\right)\\sin\\left(0.4\\right)\\right)-3.0T\\right)>0.72",
+  "color": "#0B2E3E",
+  "fillOpacity": 0.3,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "K_band2",
+  "latex": "\\left|\\sin\\left(4.2\\left(c_{z}\\left(x-c_{x}\\right)\\cos\\left(-0.3\\right)+c_{z}\\left(y-c_{y}\\right)\\sin\\left(-0.3\\right)\\right)-5.0T\\right)\\right|<0.008",
+  "color": "#44E0D0",
+  "fillOpacity": 0.24,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "K_chase",
+  "latex": "\\left(c_{x}+\\left(3.2\\sin\\left(0.42T\\right)+0.8\\sin\\left(0.9T\\right)\\right)/c_{z},c_{y}+\\left(1.4\\cos\\left(0.53T\\right)-0.3\\right)/c_{z}\\right)",
+  "color": "#FFF0D0",
+  "pointSize": "7+10p",
+  "pointOpacity": 0.95,
+  "hidden": true
+ },
+ {
+  "id": "K_trail1",
+  "latex": "\\left(c_{x}+\\left(3.2\\sin\\left(0.42(T-0.055)\\right)+0.8\\sin\\left(0.9(T-0.055)\\right)\\right)/c_{z},c_{y}+\\left(1.4\\cos\\left(0.53(T-0.055)\\right)-0.3\\right)/c_{z}\\right)",
+  "color": "#FFCF9A",
+  "pointSize": "5+6p",
+  "pointOpacity": 0.35,
+  "hidden": true
+ },
+ {
+  "id": "K_trail2",
+  "latex": "\\left(c_{x}+\\left(3.2\\sin\\left(0.42(T-0.11)\\right)+0.8\\sin\\left(0.9(T-0.11)\\right)\\right)/c_{z},c_{y}+\\left(1.4\\cos\\left(0.53(T-0.11)\\right)-0.3\\right)/c_{z}\\right)",
+  "color": "#FFCF9A",
+  "pointSize": "4+4p",
+  "pointOpacity": 0.2,
+  "hidden": true
+ },
+ {
+  "id": "K_seabed1",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(-10\\right)/c_{z},c_{y}+\\left(-5.8\\right)/c_{z}\\right),\\left(c_{x}+\\left(-0.6\\right)/c_{z},c_{y}+\\left(-4.4\\right)/c_{z}\\right),\\left(c_{x}+\\left(-0.6\\right)/c_{z},c_{y}+\\left(-3.7\\right)/c_{z}\\right),\\left(c_{x}+\\left(-10\\right)/c_{z},c_{y}+\\left(-4.9\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#02070D",
+  "fillOpacity": 0.85,
+  "lineWidth": 0.6,
+  "lineOpacity": 0.25,
+  "hidden": true
+ },
+ {
+  "id": "K_seabed2",
+  "latex": "\\operatorname{polygon}\\left(\\left[\\left(c_{x}+\\left(10\\right)/c_{z},c_{y}+\\left(-5.8\\right)/c_{z}\\right),\\left(c_{x}+\\left(0.6\\right)/c_{z},c_{y}+\\left(-4.4\\right)/c_{z}\\right),\\left(c_{x}+\\left(0.6\\right)/c_{z},c_{y}+\\left(-3.7\\right)/c_{z}\\right),\\left(c_{x}+\\left(10\\right)/c_{z},c_{y}+\\left(-4.9\\right)/c_{z}\\right)\\right]\\right)",
+  "color": "#02070D",
+  "fillOpacity": 0.85,
+  "lineWidth": 0.6,
+  "lineOpacity": 0.25,
+  "hidden": true
+ },
+ {
+  "id": "K_chaseGlow",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(3.2\\sin\\left(0.42T\\right)+0.8\\sin\\left(0.9T\\right)\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(1.4\\cos\\left(0.53T\\right)-0.3\\right)\\right)^{2}=\\left(1.65+0.3p\\right)^{2}",
+  "color": "#FFCF9A",
+  "fillOpacity": 0.035,
+  "lineWidth": 0.8,
+  "lineOpacity": "0.15+0.10p",
+  "hidden": true
+ },
+ {
+  "id": "K_drop",
+  "latex": "\\left(c_{x}+\\left(-4.4\\right)/c_{z},c_{y}+\\left(1.5\\right)/c_{z}\\right)",
+  "color": "#9EDCE8",
+  "pointSize": "24+6p",
+  "pointOpacity": 0.35,
+  "hidden": true
+ },
+ {
+  "id": "K_dropRing",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(-4.4\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(1.5\\right)\\right)^{2}=\\left(0.55+0.04\\sin\\left(1.1T\\right)\\right)^{2}",
+  "color": "#BFE3EA",
+  "lineWidth": 0.9,
+  "lineOpacity": 0.45,
+  "hidden": true
+ },
+ {
+  "id": "K_pray1",
+  "latex": "\\left(c_{x}+\\left(4.6\\right)/c_{z},c_{y}+\\left(2.4\\right)/c_{z}\\right)",
+  "color": "#FFD9A0",
+  "pointSize": "12+10p",
+  "pointOpacity": "\\left\\{T>242.1:0.8,0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "K_pray2",
+  "latex": "\\left(c_{x}+\\left(5.2\\right)/c_{z},c_{y}+\\left(1.9\\right)/c_{z}\\right)",
+  "color": "#FFD9A0",
+  "pointSize": "9+8p",
+  "pointOpacity": "\\left\\{T>242.5:0.8,0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "K_prayGlow1",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(4.6\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(2.4\\right)\\right)^{2}=\\left(1.2+0.2p\\right)^{2}",
+  "color": "#FFD9A0",
+  "lineWidth": 0.7,
+  "lineOpacity": "\\left\\{T>242.1:0.18,0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "K_prayGlow2",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(5.2\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(1.9\\right)\\right)^{2}=\\left(0.9+0.2p\\right)^{2}",
+  "color": "#FFD9A0",
+  "lineWidth": 0.7,
+  "lineOpacity": "\\left\\{T>242.5:0.16,0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "s12_wash",
+  "latex": "y<100",
+  "color": "#FFCF9A",
+  "fillOpacity": 0.018,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "L_heart",
+  "latex": "\\left(c_{x}+\\left(0\\right)/c_{z},c_{y}+\\left(0.15\\right)/c_{z}\\right)",
+  "color": "#FFCF9A",
+  "pointSize": "30+26p",
+  "pointOpacity": "0.70+0.25p",
+  "hidden": true
+ },
+ {
+  "id": "L_glow1",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0.15\\right)\\right)^{2}=\\left(1.35+0.35p\\right)^{2}",
+  "color": "#FFCF9A",
+  "fillOpacity": 0.05,
+  "lineWidth": 0.9,
+  "lineOpacity": "0.18+0.12p",
+  "hidden": true
+ },
+ {
+  "id": "L_glow2",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0.15\\right)\\right)^{2}=\\left(3.0+0.7p\\right)^{2}",
+  "color": "#FFCF9A",
+  "fillOpacity": 0.025,
+  "lineWidth": 0.7,
+  "lineOpacity": "0.10+0.08p",
+  "hidden": true
+ },
+ {
+  "id": "L_orbit",
+  "latex": "\\left(c_{x}+\\left(\\left(1.5+1.2\\operatorname{mod}\\left(0.37i,1\\right)\\right)\\cos\\left(0.16T+3.1i\\right)\\right)/c_{z},c_{y}+\\left(\\left(1.5+1.2\\operatorname{mod}\\left(0.37i,1\\right)\\right)\\sin\\left(0.16T+3.1i\\right)+0.15\\right)/c_{z}\\right)\\operatorname{for}i=\\left[1...7\\right]",
+  "color": "#9EDCE8",
+  "pointSize": 2.6,
+  "pointOpacity": 0.45,
+  "hidden": true
+ },
+ {
+  "id": "L_melody",
+  "latex": "\\left(c_{x}+\\left(3.2\\sin\\left(0.5\\left(T-263.15\\right)+1.2i\\right)\\right)/c_{z},c_{y}+\\left(1.8\\cos\\left(0.37\\left(T-263.15\\right)+2.1i\\right)\\right)/c_{z}\\right)\\operatorname{for}i=\\left[1...12\\right]",
+  "color": "#FFE7BC",
+  "pointSize": "2.0+3.0p",
+  "pointOpacity": "\\left\\{T>263.1:0.55,0\\right\\}",
+  "hidden": true
+ },
+ {
+  "id": "L_water",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=-4.55+0.10\\sin\\left(0.4c_{z}\\left(x-c_{x}\\right)+0.2T\\right)",
+  "color": "#2AA7B8",
+  "lineWidth": 0.8,
+  "lineOpacity": 0.22,
+  "hidden": true
+ },
+ {
+  "id": "L_line",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=0.15+0.02\\sin\\left(0.3T\\right)",
+  "color": "#FFCF9A",
+  "lineWidth": "0.5+0.8p",
+  "lineOpacity": "0.18+0.10p",
+  "hidden": true
+ },
+ {
+  "id": "L_pulse",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0.15\\right)\\right)^{2}=\\left(3.0+0.4p\\right)^{2}",
+  "color": "#FFCF9A",
+  "lineWidth": 0.6,
+  "lineOpacity": "0.05+0.05p",
+  "hidden": true
+ },
+ {
+  "id": "s13_wash",
+  "latex": "y<100",
+  "color": "#FFCF9A",
+  "fillOpacity": 0.018,
+  "lineOpacity": 0,
+  "hidden": true
+ },
+ {
+  "id": "M_water",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=-4.45+0.08\\sin\\left(0.3c_{z}\\left(x-c_{x}\\right)+0.15T\\right)",
+  "color": "#2AA7B8",
+  "lineWidth": 0.7,
+  "lineOpacity": 0.17,
+  "hidden": true
+ },
+ {
+  "id": "M_reach",
+  "latex": "\\left(c_{x}+\\left(-4.6+9.0t\\right)/c_{z},c_{y}+\\left(-3.7+4.7t+0.18\\sin\\left(2.4t\\right)\\right)/c_{z}\\right)",
+  "color": "#FFCF9A",
+  "lineWidth": "1.0+1.4p",
+  "lineOpacity": 0.62,
+  "parametricDomain": {
+   "min": "0",
+   "max": "1"
+  },
+  "hidden": true
+ },
+ {
+  "id": "M_star",
+  "latex": "\\left(c_{x}+\\left(4.4\\right)/c_{z},c_{y}+\\left(1.0\\right)/c_{z}\\right)",
+  "color": "#FFF0D0",
+  "pointSize": "20+18p",
+  "pointOpacity": "0.85+0.15p",
+  "hidden": true
+ },
+ {
+  "id": "M_glow",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(4.4\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(1\\right)\\right)^{2}=\\left(1.6+0.3p\\right)^{2}",
+  "color": "#FFD9A0",
+  "fillOpacity": 0.055,
+  "lineWidth": 1,
+  "lineOpacity": 0.28,
+  "hidden": true
+ },
+ {
+  "id": "M_line2",
+  "latex": "c_{z}\\left(y-c_{y}\\right)=1.0+0.04\\sin\\left(0.4T\\right)",
+  "color": "#FFCF9A",
+  "lineWidth": 0.5,
+  "lineOpacity": 0.15,
+  "hidden": true
+ },
+ {
+  "id": "g_ring",
+  "latex": "\\left(c_{z}\\left(x-c_{x}\\right)-\\left(0\\right)\\right)^{2}+\\left(c_{z}\\left(y-c_{y}\\right)-\\left(0\\right)\\right)^{2}=\\left(4.2+0.45p\\right)^{2}",
+  "color": "#44E0D0",
+  "lineWidth": "1.0+2.4p",
+  "lineOpacity": "0.06+0.20p"
+ }
+]
