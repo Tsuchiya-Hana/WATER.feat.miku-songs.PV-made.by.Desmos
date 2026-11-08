@@ -1,5 +1,17 @@
 # WATER feat. miku — Desmos MV（发布备份 / MIT）
 
+## 歌曲信息
+曲名：[WATER(feat.miku)](https://www.bilibili.com/video/BV1tJ411m7Az)
+作曲：[A-39](https://space.bilibili.com/223114367)
+编曲：A-39
+混音：A-39
+母带：A-39
+作词：沙包P
+调教：沙包P
+演唱：初音未来
+
+## 说明
+
 这是 `WATER feat.miku` 的**完整工程副本**，用于发布。  
 为了版权合规，副本中删除了音频、歌词、字幕、曲绘、MIDI/乐谱等素材，并把 `index.html` 与 `src/data.js` 中的歌词替换为无意义占位文本。**其余工程文件、源码、构建工具和开发工具均保留**。
 
